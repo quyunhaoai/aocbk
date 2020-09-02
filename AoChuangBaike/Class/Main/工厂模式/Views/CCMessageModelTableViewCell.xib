@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="168" id="KGk-i7-Jjw" customClass="CCMessageModelTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="391" height="168"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="391" height="168"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5un-XW-EXC">
+                        <rect key="frame" x="10" y="7" width="371" height="151"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fch-DI-sMY">
+                                <rect key="frame" x="10" y="98" width="351" height="1"/>
+                                <color key="backgroundColor" red="0.8980392157" green="0.8980392157" blue="0.8980392157" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="zXf-c1-ZIP"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="教你入门心理学·10讲" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4WS-ug-I0F">
+                                <rect key="frame" x="10" y="12" width="256" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="R6F-Rs-4ts"/>
+                                    <constraint firstAttribute="width" constant="256" id="pYO-TB-vrM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="给所有人的思维风暴" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q7x-hY-KOg">
+                                <rect key="frame" x="10" y="40" width="256" height="14"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="256" id="IlE-XG-fnu"/>
+                                    <constraint firstAttribute="height" constant="14" id="qC7-eI-FXb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="暂未开始学习" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hYn-q1-Cxg">
+                                <rect key="frame" x="10" y="67" width="204" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="204" id="paY-N9-qiT"/>
+                                    <constraint firstAttribute="height" constant="21" id="sls-ys-3V7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p70-ru-Vle" customClass="KKButton">
+                                <rect key="frame" x="301" y="68" width="60" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="lJ1-kk-p4B"/>
+                                    <constraint firstAttribute="height" constant="20" id="qo1-0e-ZsD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="开始学习">
+                                    <color key="titleColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="startLear:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="NFR-OR-VXd"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="张明楷·清华大学心理学教授" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nhJ-gB-Nb3">
+                                <rect key="frame" x="36" y="104.5" width="320" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="gJe-PV-5eX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="图层 6" translatesAutoresizingMaskIntoConstraints="NO" id="k9Z-M6-QHg">
+                                <rect key="frame" x="13" y="103" width="18" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="18" id="NCm-gI-cgF"/>
+                                    <constraint firstAttribute="height" constant="18" id="gyh-BG-WZI"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="hYn-q1-Cxg" firstAttribute="leading" secondItem="q7x-hY-KOg" secondAttribute="leading" id="80Y-4C-0kc"/>
+                            <constraint firstAttribute="trailing" secondItem="nhJ-gB-Nb3" secondAttribute="trailing" constant="15" id="An9-6h-Z1j"/>
+                            <constraint firstItem="4WS-ug-I0F" firstAttribute="top" secondItem="5un-XW-EXC" secondAttribute="top" constant="12" id="EAx-yH-EEt"/>
+                            <constraint firstItem="4WS-ug-I0F" firstAttribute="leading" secondItem="5un-XW-EXC" secondAttribute="leading" constant="10" id="Eg3-Um-XoM"/>
+                            <constraint firstItem="k9Z-M6-QHg" firstAttribute="top" secondItem="fch-DI-sMY" secondAttribute="bottom" constant="4" id="OBC-20-fHx"/>
+                            <constraint firstItem="nhJ-gB-Nb3" firstAttribute="leading" secondItem="k9Z-M6-QHg" secondAttribute="trailing" constant="5" id="QQ3-At-gNY"/>
+                            <constraint firstItem="q7x-hY-KOg" firstAttribute="leading" secondItem="5un-XW-EXC" secondAttribute="leading" constant="10" id="Rum-8n-yHc"/>
+                            <constraint firstItem="k9Z-M6-QHg" firstAttribute="leading" secondItem="5un-XW-EXC" secondAttribute="leading" constant="13" id="Ym9-e9-eZy"/>
+                            <constraint firstItem="hYn-q1-Cxg" firstAttribute="top" secondItem="q7x-hY-KOg" secondAttribute="bottom" constant="13" id="dOY-b0-Wc3"/>
+                            <constraint firstItem="q7x-hY-KOg" firstAttribute="top" secondItem="4WS-ug-I0F" secondAttribute="bottom" constant="7" id="kvC-gZ-FR6"/>
+                            <constraint firstAttribute="trailing" secondItem="p70-ru-Vle" secondAttribute="trailing" constant="10" id="mRf-Z1-AMR"/>
+                            <constraint firstAttribute="trailing" secondItem="fch-DI-sMY" secondAttribute="trailing" constant="10" id="nhS-J9-DRQ"/>
+                            <constraint firstItem="nhJ-gB-Nb3" firstAttribute="centerY" secondItem="k9Z-M6-QHg" secondAttribute="centerY" id="pBl-4H-PfK"/>
+                            <constraint firstItem="fch-DI-sMY" firstAttribute="top" secondItem="hYn-q1-Cxg" secondAttribute="bottom" constant="10" id="pax-rY-ojl"/>
+                            <constraint firstItem="fch-DI-sMY" firstAttribute="top" secondItem="p70-ru-Vle" secondAttribute="bottom" constant="10" id="wsT-9D-Klh"/>
+                            <constraint firstItem="fch-DI-sMY" firstAttribute="leading" secondItem="5un-XW-EXC" secondAttribute="leading" constant="10" id="xKd-3x-gXw"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="5un-XW-EXC" secondAttribute="bottom" constant="10" id="OaH-3r-IPB"/>
+                    <constraint firstItem="5un-XW-EXC" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="7" id="VLJ-XM-jRX"/>
+                    <constraint firstItem="5un-XW-EXC" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="fMN-Tg-kxB"/>
+                    <constraint firstAttribute="trailing" secondItem="5un-XW-EXC" secondAttribute="trailing" constant="10" id="y3Z-UN-tBW"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="ICONIMageView" destination="k9Z-M6-QHg" id="526-FW-URy"/>
+                <outlet property="bgView" destination="5un-XW-EXC" id="ca1-eL-4nl"/>
+                <outlet property="lookDetailBtn" destination="p70-ru-Vle" id="3QZ-UP-Pd2"/>
+                <outlet property="namelab" destination="nhJ-gB-Nb3" id="GNI-kZ-Q1r"/>
+                <outlet property="subLab" destination="q7x-hY-KOg" id="tgd-F3-Ov7"/>
+                <outlet property="timeLab" destination="hYn-q1-Cxg" id="xbg-gV-feC"/>
+                <outlet property="titleLab" destination="4WS-ug-I0F" id="ncK-UI-3d8"/>
+            </connections>
+            <point key="canvasLocation" x="177.536231884058" y="157.36607142857142"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="图层 6" width="75" height="100"/>
+    </resources>
+</document>

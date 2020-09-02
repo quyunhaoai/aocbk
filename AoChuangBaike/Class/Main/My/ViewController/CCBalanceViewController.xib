@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CCBalanceViewController">
+            <connections>
+                <outlet property="goPay" destination="YV2-QV-nA4" id="jsr-oO-zt3"/>
+                <outlet property="goPayBtn" destination="YV2-QV-nA4" id="Bvf-nN-58s"/>
+                <outlet property="headView" destination="lVX-Zs-Igt" id="ij9-sP-rhN"/>
+                <outlet property="monryLab" destination="bzZ-GF-hEE" id="WLR-MI-f9a"/>
+                <outlet property="priceLab" destination="bzZ-GF-hEE" id="GWz-kP-v29"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lVX-Zs-Igt">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="197"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="账户余额背景" translatesAutoresizingMaskIntoConstraints="NO" id="rj5-kW-tg4">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="290"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="290" id="fVi-CJ-PJn"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="充值" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ych-ah-c1r">
+                            <rect key="frame" x="12.5" y="306" width="143" height="20.5"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="143" id="2BF-9c-60Z"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="￥0.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bzZ-GF-hEE">
+                            <rect key="frame" x="58.5" y="115" width="297" height="35"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="35" id="bJs-Hj-uzs"/>
+                                <constraint firstAttribute="width" constant="297" id="lXw-P9-owd"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YV2-QV-nA4" customClass="KKButton">
+                            <rect key="frame" x="112" y="162" width="190" height="34"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="34" id="Tvb-Ec-7YA"/>
+                                <constraint firstAttribute="width" constant="190" id="syI-jI-bPZ"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="(仅用于付费项目）"/>
+                            <connections>
+                                <action selector="goChongZhi:" destination="-1" eventType="touchUpInside" id="soY-Pb-9iC"/>
+                                <action selector="payButton:" destination="-1" eventType="touchUpInside" id="9CM-Db-Ye3"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstItem="rj5-kW-tg4" firstAttribute="top" secondItem="lVX-Zs-Igt" secondAttribute="top" constant="0.10000000000000001" id="26D-Zk-4l8"/>
+                        <constraint firstItem="bzZ-GF-hEE" firstAttribute="centerX" secondItem="lVX-Zs-Igt" secondAttribute="centerX" id="GmV-1n-H5f"/>
+                        <constraint firstItem="Ych-ah-c1r" firstAttribute="leading" secondItem="rj5-kW-tg4" secondAttribute="leading" constant="12.5" id="K2U-dG-7S1"/>
+                        <constraint firstItem="rj5-kW-tg4" firstAttribute="leading" secondItem="lVX-Zs-Igt" secondAttribute="leading" constant="0.10000000000000001" id="MP6-yQ-JUp"/>
+                        <constraint firstAttribute="trailing" secondItem="rj5-kW-tg4" secondAttribute="trailing" constant="0.10000000000000001" id="lBC-7j-PyS"/>
+                        <constraint firstItem="YV2-QV-nA4" firstAttribute="centerX" secondItem="lVX-Zs-Igt" secondAttribute="centerX" id="lP8-1A-Q0v"/>
+                        <constraint firstItem="bzZ-GF-hEE" firstAttribute="top" secondItem="rj5-kW-tg4" secondAttribute="top" constant="115" id="lYU-Ry-4dx"/>
+                        <constraint firstItem="Ych-ah-c1r" firstAttribute="top" secondItem="rj5-kW-tg4" secondAttribute="bottom" constant="16" id="lgz-c3-IOJ"/>
+                        <constraint firstAttribute="height" constant="197" id="vVb-7J-NX3"/>
+                        <constraint firstItem="YV2-QV-nA4" firstAttribute="top" secondItem="bzZ-GF-hEE" secondAttribute="bottom" constant="12" id="xxv-F2-ghm"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="lVX-Zs-Igt" firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="trailing" constant="0.10000000000000001" id="WhS-wm-Bhs"/>
+                <constraint firstItem="lVX-Zs-Igt" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="hRd-vE-PvW"/>
+                <constraint firstItem="lVX-Zs-Igt" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="0.10000000000000001" id="x0r-X6-ymc"/>
+            </constraints>
+            <point key="canvasLocation" x="131.8840579710145" y="138.61607142857142"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="账户余额背景" width="375" height="290.5"/>
+    </resources>
+</document>

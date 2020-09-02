@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="MHBigMubltCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="426" height="210"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="426" height="210"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cSF-cc-LtO">
+                        <rect key="frame" x="0.0" y="0.0" width="426" height="210"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="国奥医院" translatesAutoresizingMaskIntoConstraints="NO" id="c4g-Uw-1yo">
+                                <rect key="frame" x="12" y="10" width="170" height="190"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="170" id="qlb-yC-8dU"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="在线咨询" translatesAutoresizingMaskIntoConstraints="NO" id="F4i-QO-jUq">
+                                <rect key="frame" x="193" y="10" width="221" height="87.5"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="门诊挂号1" translatesAutoresizingMaskIntoConstraints="NO" id="RlJ-up-4DX">
+                                <rect key="frame" x="193" y="107.5" width="221" height="92.5"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="RlJ-up-4DX" secondAttribute="trailing" constant="12" id="4TN-9J-AsG"/>
+                            <constraint firstItem="F4i-QO-jUq" firstAttribute="top" secondItem="cSF-cc-LtO" secondAttribute="top" constant="10" id="JjC-4X-xVR"/>
+                            <constraint firstItem="RlJ-up-4DX" firstAttribute="top" secondItem="F4i-QO-jUq" secondAttribute="bottom" constant="10" id="PUY-GJ-P7o"/>
+                            <constraint firstAttribute="bottom" secondItem="RlJ-up-4DX" secondAttribute="bottom" constant="10" id="VtY-DB-UBX"/>
+                            <constraint firstItem="RlJ-up-4DX" firstAttribute="leading" secondItem="c4g-Uw-1yo" secondAttribute="trailing" constant="11" id="Wfa-4j-yjR"/>
+                            <constraint firstItem="RlJ-up-4DX" firstAttribute="height" secondItem="F4i-QO-jUq" secondAttribute="height" multiplier="1.05714" id="YQt-ea-PQ4"/>
+                            <constraint firstAttribute="trailing" secondItem="F4i-QO-jUq" secondAttribute="trailing" constant="12" id="YjJ-Y3-PEq"/>
+                            <constraint firstItem="c4g-Uw-1yo" firstAttribute="leading" secondItem="cSF-cc-LtO" secondAttribute="leading" constant="12" id="edk-2p-qAd"/>
+                            <constraint firstItem="F4i-QO-jUq" firstAttribute="leading" secondItem="c4g-Uw-1yo" secondAttribute="trailing" constant="11" id="oyE-EB-Xkr"/>
+                            <constraint firstItem="c4g-Uw-1yo" firstAttribute="top" secondItem="cSF-cc-LtO" secondAttribute="top" constant="10" id="tsg-Jg-6kg"/>
+                            <constraint firstAttribute="bottom" secondItem="c4g-Uw-1yo" secondAttribute="bottom" constant="10" id="wdL-hC-w8I"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="cSF-cc-LtO" secondAttribute="bottom" constant="0.10000000000000001" id="V09-qX-lEo"/>
+                <constraint firstItem="cSF-cc-LtO" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="0.10000000000000001" id="cad-9G-MuX"/>
+                <constraint firstItem="cSF-cc-LtO" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="0.10000000000000001" id="wmK-Cu-P3j"/>
+                <constraint firstAttribute="trailing" secondItem="cSF-cc-LtO" secondAttribute="trailing" constant="0.10000000000000001" id="xu3-hg-rMV"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <size key="customSize" width="426" height="210"/>
+            <connections>
+                <outlet property="firstImageView" destination="c4g-Uw-1yo" id="Qd9-ef-hms"/>
+                <outlet property="secondImageView" destination="F4i-QO-jUq" id="chb-CN-lFh"/>
+                <outlet property="threeImageView" destination="RlJ-up-4DX" id="ehd-Wq-VUD"/>
+            </connections>
+            <point key="canvasLocation" x="11.594202898550726" y="180.80357142857142"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="国奥医院" width="170.5" height="120"/>
+        <image name="在线咨询" width="170.5" height="55.5"/>
+        <image name="门诊挂号1" width="170" height="55"/>
+    </resources>
+</document>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="103" id="KGk-i7-Jjw" customClass="MHMyClassTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="404" height="103"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="404" height="103"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FEv-L4-kzW">
+                        <rect key="frame" x="12" y="8" width="380" height="87"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="第一章  教你如何解读心理学" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dFT-9O-9Mg">
+                                <rect key="frame" x="17" y="19" width="263" height="14"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="14" id="C5t-RF-IB4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d8G-2w-OQr" customClass="KKButton">
+                                <rect key="frame" x="286" y="14" width="77" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="6TY-qW-tvj"/>
+                                    <constraint firstAttribute="width" constant="77" id="O0E-vw-5NC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="开始学习" image="矩形 926"/>
+                                <connections>
+                                    <action selector="buttonClick:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="kiE-XL-9gq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zWi-yi-QtB" customClass="KKButton">
+                                <rect key="frame" x="46" y="43" width="77" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="77" id="XWC-61-n4q"/>
+                                    <constraint firstAttribute="height" constant="24" id="jKb-66-ltc"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="buttonClick:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="7UA-5V-xEN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R0i-hB-uRf" customClass="KKButton">
+                                <rect key="frame" x="147" y="43" width="77" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="5LH-Sg-M0P"/>
+                                    <constraint firstAttribute="width" constant="77" id="Nua-jq-zed"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="buttonClick:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="A0p-Ch-t5m"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RjU-12-YaI" customClass="KKButton">
+                                <rect key="frame" x="248" y="43" width="77" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="Axl-x5-K8e"/>
+                                    <constraint firstAttribute="width" constant="77" id="tDo-6w-3ce"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="buttonClick:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="ATy-6f-Kpg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="dFT-9O-9Mg" firstAttribute="leading" secondItem="FEv-L4-kzW" secondAttribute="leading" constant="17" id="2b0-Ox-TjI"/>
+                            <constraint firstItem="RjU-12-YaI" firstAttribute="leading" secondItem="R0i-hB-uRf" secondAttribute="trailing" constant="24" id="4EL-uJ-a3W"/>
+                            <constraint firstItem="RjU-12-YaI" firstAttribute="centerY" secondItem="R0i-hB-uRf" secondAttribute="centerY" id="7te-Ka-kI4"/>
+                            <constraint firstAttribute="trailing" secondItem="dFT-9O-9Mg" secondAttribute="trailing" constant="100" id="EJZ-v1-7DL"/>
+                            <constraint firstItem="R0i-hB-uRf" firstAttribute="leading" secondItem="zWi-yi-QtB" secondAttribute="trailing" constant="24" id="MeQ-s0-BOK"/>
+                            <constraint firstItem="R0i-hB-uRf" firstAttribute="top" secondItem="dFT-9O-9Mg" secondAttribute="bottom" constant="10" id="SfK-08-z9V"/>
+                            <constraint firstItem="dFT-9O-9Mg" firstAttribute="top" secondItem="FEv-L4-kzW" secondAttribute="top" constant="19" id="X10-MU-OP2"/>
+                            <constraint firstItem="zWi-yi-QtB" firstAttribute="leading" secondItem="FEv-L4-kzW" secondAttribute="leading" constant="46" id="aYF-Q2-SSa"/>
+                            <constraint firstItem="zWi-yi-QtB" firstAttribute="top" secondItem="dFT-9O-9Mg" secondAttribute="bottom" constant="10" id="kGb-gZ-wpv"/>
+                            <constraint firstAttribute="trailing" secondItem="d8G-2w-OQr" secondAttribute="trailing" constant="17" id="tc6-ky-Dio"/>
+                            <constraint firstItem="d8G-2w-OQr" firstAttribute="centerY" secondItem="dFT-9O-9Mg" secondAttribute="centerY" id="wOg-hU-wNi"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="FEv-L4-kzW" secondAttribute="trailing" constant="12" id="4OU-OP-YwU"/>
+                    <constraint firstItem="FEv-L4-kzW" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="A10-BU-Bpg"/>
+                    <constraint firstItem="FEv-L4-kzW" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="bOL-oL-iOK"/>
+                    <constraint firstAttribute="bottom" secondItem="FEv-L4-kzW" secondAttribute="bottom" constant="8" id="rG9-Eo-jyD"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="bgView" destination="FEv-L4-kzW" id="T7m-1T-OCr"/>
+                <outlet property="lianXiBtn" destination="zWi-yi-QtB" id="p0y-ir-5aY"/>
+                <outlet property="moniBtn" destination="R0i-hB-uRf" id="HcD-IV-AC6"/>
+                <outlet property="startBtn" destination="d8G-2w-OQr" id="ug4-pv-16L"/>
+                <outlet property="testBtn" destination="RjU-12-YaI" id="rKv-8L-KJE"/>
+                <outlet property="titleLab" destination="dFT-9O-9Mg" id="VtR-gA-GoG"/>
+            </connections>
+            <point key="canvasLocation" x="192.75362318840581" y="136.27232142857142"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="矩形 926" width="8" height="14.5"/>
+    </resources>
+</document>
