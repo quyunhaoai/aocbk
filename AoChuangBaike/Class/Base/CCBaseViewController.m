@@ -224,7 +224,7 @@
         _navTitleView = ({
             KKNavTitleView *view = [KKNavTitleView new];
             view.contentOffsetY = STATUS_BAR_HEIGHT >20 ? (STATUS_BAR_HEIGHT-(13.5))/2 : 10 ;
-            view.backgroundColor = kMainColor;
+            view.backgroundColor = kWhiteColor;
             view ;
         });
     }

@@ -3,4 +3,86 @@
    uuid = "2C17A0F9-910D-4CF0-9CA2-964EEB67B44A"
    type = "0"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E355EE3D-BE63-45F1-A80A-F63A54E0B6B5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AoChuangBaike/Class/Main/LoginVC/View/STLoginMobileInputView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "-setupUI"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "49C4D418-BB10-4C08-BC47-1E0712B42509"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AoChuangBaike/Class/Main/LoginVC/View/STLoginMobileInputView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "-setupUI"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1EF0B31D-083B-49F9-AD4F-C7B423178EB3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AoChuangBaike/Class/Main/LoginVC/View/STLoginMobileInputView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "-setupUI"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1EF0B31D-083B-49F9-AD4F-C7B423178EB3 - 7525a2417a4c6e1a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[STLoginMobileInputView setupUI]"
+                  moduleName = "&#x5965;&#x521b;&#x79d1;&#x6280;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhuxichang/Desktop/%E6%9C%AA%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6%E5%A4%B9/AoChuangBaike/AoChuangBaike/Class/Main/LoginVC/View/STLoginMobileInputView.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "1999">
+               </Location>
+               <Location
+                  uuid = "1EF0B31D-083B-49F9-AD4F-C7B423178EB3 - 7477d00f4472d96b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__33-[STLoginMobileInputView setupUI]_block_invoke_6"
+                  moduleName = "&#x5965;&#x521b;&#x79d1;&#x6280;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhuxichang/Desktop/%E6%9C%AA%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6%E5%A4%B9/AoChuangBaike/AoChuangBaike/Class/Main/LoginVC/View/STLoginMobileInputView.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "15">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

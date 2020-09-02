@@ -119,8 +119,8 @@
 
 -(void)navigationController:(UINavigationController *)navigationController willShowViewController:(UIViewController *)viewController animated:(BOOL)animated{
     
-//    if ([viewController isKindOfClass:[STBaseViewController class]]) {
-//        STBaseViewController * vc = (STBaseViewController *)viewController;
+//    if ([viewController isKindOfClass:[CCBaseViewController class]]) {
+//        CCBaseViewController * vc = (CCBaseViewController *)viewController;
         [viewController.navigationController setNavigationBarHidden:YES animated:animated];
 //    }
 }

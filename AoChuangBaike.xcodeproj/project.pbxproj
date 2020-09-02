@@ -385,6 +385,16 @@
 		AA6ADD6E24FF6B6500E11B4B /* MHChangePassView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6ADD6124FF6B6300E11B4B /* MHChangePassView.m */; };
 		AA6ADD6F24FF6B6500E11B4B /* MHChangeMobleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA6ADD6224FF6B6300E11B4B /* MHChangeMobleViewController.xib */; };
 		AA6ADD7024FF6B6500E11B4B /* MHChangePassWorldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6ADD6824FF6B6400E11B4B /* MHChangePassWorldViewController.m */; };
+		AA6ADD8D24FF790600E11B4B /* STRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6ADD7824FF790600E11B4B /* STRegisterViewController.m */; };
+		AA6ADD8E24FF790600E11B4B /* STLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6ADD7924FF790600E11B4B /* STLoginViewController.m */; };
+		AA6ADD9524FF790600E11B4B /* STFoundPassWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6ADD8824FF790600E11B4B /* STFoundPassWordViewController.m */; };
+		AA6ADDA224FF7DED00E11B4B /* STRegisterInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6ADD9824FF7DEC00E11B4B /* STRegisterInputView.m */; };
+		AA6ADDA324FF7DED00E11B4B /* STFoundPassWordResuldView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6ADD9A24FF7DEC00E11B4B /* STFoundPassWordResuldView.m */; };
+		AA6ADDA424FF7DED00E11B4B /* STFoundpassWordHeadIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6ADD9B24FF7DEC00E11B4B /* STFoundpassWordHeadIconView.m */; };
+		AA6ADDA524FF7DED00E11B4B /* STLoginMobileInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6ADD9D24FF7DEC00E11B4B /* STLoginMobileInputView.m */; };
+		AA6ADDA624FF7DED00E11B4B /* STLoginBottomButtonViews.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6ADD9E24FF7DED00E11B4B /* STLoginBottomButtonViews.m */; };
+		AA6ADDA724FF7DED00E11B4B /* STLoginInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6ADDA024FF7DED00E11B4B /* STLoginInputView.m */; };
+		AA6ADDAB24FF8C1300E11B4B /* STMobileLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6ADDA924FF8C1300E11B4B /* STMobileLoginViewController.m */; };
 		AA92440324FE48BC00E50613 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA92440224FE48BC00E50613 /* AppDelegate.m */; };
 		AA92440924FE48BC00E50613 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA92440824FE48BC00E50613 /* ViewController.m */; };
 		AA92440C24FE48BC00E50613 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA92440A24FE48BC00E50613 /* Main.storyboard */; };
@@ -1136,6 +1146,26 @@
 		AA6ADD6624FF6B6400E11B4B /* MHChangePassView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHChangePassView.h; sourceTree = "<group>"; };
 		AA6ADD6724FF6B6400E11B4B /* PushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushViewController.h; sourceTree = "<group>"; };
 		AA6ADD6824FF6B6400E11B4B /* MHChangePassWorldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHChangePassWorldViewController.m; sourceTree = "<group>"; };
+		AA6ADD7724FF790600E11B4B /* STFoundPassWordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STFoundPassWordViewController.h; path = ../STFoundPassWordViewController.h; sourceTree = "<group>"; };
+		AA6ADD7824FF790600E11B4B /* STRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STRegisterViewController.m; path = ../STRegisterViewController.m; sourceTree = "<group>"; };
+		AA6ADD7924FF790600E11B4B /* STLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STLoginViewController.m; path = ../STLoginViewController.m; sourceTree = "<group>"; };
+		AA6ADD8724FF790600E11B4B /* STRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STRegisterViewController.h; path = ../STRegisterViewController.h; sourceTree = "<group>"; };
+		AA6ADD8824FF790600E11B4B /* STFoundPassWordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STFoundPassWordViewController.m; path = ../STFoundPassWordViewController.m; sourceTree = "<group>"; };
+		AA6ADD8924FF790600E11B4B /* STLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STLoginViewController.h; path = ../STLoginViewController.h; sourceTree = "<group>"; };
+		AA6ADD9624FF7DEB00E11B4B /* STFoundpassWordHeadIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STFoundpassWordHeadIconView.h; sourceTree = "<group>"; };
+		AA6ADD9724FF7DEC00E11B4B /* STLoginBottomButtonViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLoginBottomButtonViews.h; sourceTree = "<group>"; };
+		AA6ADD9824FF7DEC00E11B4B /* STRegisterInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STRegisterInputView.m; sourceTree = "<group>"; };
+		AA6ADD9924FF7DEC00E11B4B /* STFoundPassWordResuldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STFoundPassWordResuldView.h; sourceTree = "<group>"; };
+		AA6ADD9A24FF7DEC00E11B4B /* STFoundPassWordResuldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STFoundPassWordResuldView.m; sourceTree = "<group>"; };
+		AA6ADD9B24FF7DEC00E11B4B /* STFoundpassWordHeadIconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STFoundpassWordHeadIconView.m; sourceTree = "<group>"; };
+		AA6ADD9C24FF7DEC00E11B4B /* STLoginInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLoginInputView.h; sourceTree = "<group>"; };
+		AA6ADD9D24FF7DEC00E11B4B /* STLoginMobileInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STLoginMobileInputView.m; sourceTree = "<group>"; };
+		AA6ADD9E24FF7DED00E11B4B /* STLoginBottomButtonViews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STLoginBottomButtonViews.m; sourceTree = "<group>"; };
+		AA6ADD9F24FF7DED00E11B4B /* STRegisterInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STRegisterInputView.h; sourceTree = "<group>"; };
+		AA6ADDA024FF7DED00E11B4B /* STLoginInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STLoginInputView.m; sourceTree = "<group>"; };
+		AA6ADDA124FF7DED00E11B4B /* STLoginMobileInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLoginMobileInputView.h; sourceTree = "<group>"; };
+		AA6ADDA924FF8C1300E11B4B /* STMobileLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STMobileLoginViewController.m; path = AoChuangBaike/Class/Main/LoginVC/STMobileLoginViewController.m; sourceTree = SOURCE_ROOT; };
+		AA6ADDAA24FF8C1300E11B4B /* STMobileLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STMobileLoginViewController.h; path = AoChuangBaike/Class/Main/LoginVC/STMobileLoginViewController.h; sourceTree = SOURCE_ROOT; };
 		AA9243FE24FE48BC00E50613 /* 奥创科技.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "奥创科技.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA92440124FE48BC00E50613 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AA92440224FE48BC00E50613 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -1541,6 +1571,7 @@
 		AA49084E24FF28D80022CF39 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				AA6ADD7124FF790600E11B4B /* LoginVC */,
 				AA6ADC1524FF502300E11B4B /* My */,
 				AA09C62224FF335700ECE305 /* Home */,
 				AA49099924FF28D90022CF39 /* Model */,
@@ -2819,6 +2850,49 @@
 			path = VerViewController;
 			sourceTree = "<group>";
 		};
+		AA6ADD7124FF790600E11B4B /* LoginVC */ = {
+			isa = PBXGroup;
+			children = (
+				AA6ADDA824FF8BFA00E11B4B /* ViewController */,
+				AA6ADD7A24FF790600E11B4B /* View */,
+			);
+			path = LoginVC;
+			sourceTree = "<group>";
+		};
+		AA6ADD7A24FF790600E11B4B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AA6ADD9624FF7DEB00E11B4B /* STFoundpassWordHeadIconView.h */,
+				AA6ADD9B24FF7DEC00E11B4B /* STFoundpassWordHeadIconView.m */,
+				AA6ADD9924FF7DEC00E11B4B /* STFoundPassWordResuldView.h */,
+				AA6ADD9A24FF7DEC00E11B4B /* STFoundPassWordResuldView.m */,
+				AA6ADD9724FF7DEC00E11B4B /* STLoginBottomButtonViews.h */,
+				AA6ADD9E24FF7DED00E11B4B /* STLoginBottomButtonViews.m */,
+				AA6ADD9C24FF7DEC00E11B4B /* STLoginInputView.h */,
+				AA6ADDA024FF7DED00E11B4B /* STLoginInputView.m */,
+				AA6ADDA124FF7DED00E11B4B /* STLoginMobileInputView.h */,
+				AA6ADD9D24FF7DEC00E11B4B /* STLoginMobileInputView.m */,
+				AA6ADD9F24FF7DED00E11B4B /* STRegisterInputView.h */,
+				AA6ADD9824FF7DEC00E11B4B /* STRegisterInputView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AA6ADDA824FF8BFA00E11B4B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AA6ADDAA24FF8C1300E11B4B /* STMobileLoginViewController.h */,
+				AA6ADDA924FF8C1300E11B4B /* STMobileLoginViewController.m */,
+				AA6ADD8724FF790600E11B4B /* STRegisterViewController.h */,
+				AA6ADD7824FF790600E11B4B /* STRegisterViewController.m */,
+				AA6ADD7724FF790600E11B4B /* STFoundPassWordViewController.h */,
+				AA6ADD8824FF790600E11B4B /* STFoundPassWordViewController.m */,
+				AA6ADD8924FF790600E11B4B /* STLoginViewController.h */,
+				AA6ADD7924FF790600E11B4B /* STLoginViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		AA9243F524FE48BC00E50613 = {
 			isa = PBXGroup;
 			children = (
@@ -3007,6 +3081,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA6ADC1024FF427F00E11B4B /* MHHomeHeadImageView.m in Sources */,
+				AA6ADD9524FF790600E11B4B /* STFoundPassWordViewController.m in Sources */,
 				AA6ADD6B24FF6B6500E11B4B /* GHValidationCodeView.m in Sources */,
 				AA490C0B24FF28DC0022CF39 /* CCMyOrderModel.m in Sources */,
 				AA490BFE24FF28DC0022CF39 /* MHClassListModel.m in Sources */,
@@ -3025,6 +3100,7 @@
 				AA490C0224FF28DC0022CF39 /* CCModifyArddress.m in Sources */,
 				AA490F9A24FF2B6C0022CF39 /* NSObject+YYModel.m in Sources */,
 				AA490F9E24FF2B6C0022CF39 /* STConst.m in Sources */,
+				AA6ADDA624FF7DED00E11B4B /* STLoginBottomButtonViews.m in Sources */,
 				AA490FB924FF2B6C0022CF39 /* TAPageControl.m in Sources */,
 				AA490C1524FF28DC0022CF39 /* CCDaySalesTableViewCell.m in Sources */,
 				AA490A2924FF28DA0022CF39 /* CenterAlertContentView.m in Sources */,
@@ -3080,6 +3156,7 @@
 				AA490F6124FF2B6B0022CF39 /* DALabeledCircularProgressView.m in Sources */,
 				AA490FCE24FF2B6C0022CF39 /* JSONModel+networking.m in Sources */,
 				AA490A0D24FF28D90022CF39 /* SPAlertController.m in Sources */,
+				AA6ADDA224FF7DED00E11B4B /* STRegisterInputView.m in Sources */,
 				AA490C2A24FF28DC0022CF39 /* CCWarningReminderModelTableViewCell.m in Sources */,
 				AA6ADC0D24FF427F00E11B4B /* MHNewsCollectionViewCell.m in Sources */,
 				AA6ADD6A24FF6B6500E11B4B /* PushViewController.m in Sources */,
@@ -3176,6 +3253,7 @@
 				AA490ECB24FF2B6B0022CF39 /* MJProperty.m in Sources */,
 				AA490C2624FF28DC0022CF39 /* CCMyOrderModelTableViewCell.m in Sources */,
 				AA490F6324FF2B6B0022CF39 /* UIView+PYExtension.m in Sources */,
+				AA6ADDA424FF7DED00E11B4B /* STFoundpassWordHeadIconView.m in Sources */,
 				AA6ADCB324FF502500E11B4B /* UIButton+BackgroundColor.m in Sources */,
 				AA490A3224FF28DA0022CF39 /* KKButton.m in Sources */,
 				AA6ADCB524FF502500E11B4B /* YJAnswerPopCollectionViewCell.m in Sources */,
@@ -3185,6 +3263,7 @@
 				AA490A2124FF28D90022CF39 /* UIBarButtonItem+WZLBadge.m in Sources */,
 				AA490F7924FF2B6B0022CF39 /* TZImageCropManager.m in Sources */,
 				AA6ADCA424FF502400E11B4B /* MHCheckAnswerModel.m in Sources */,
+				AA6ADDAB24FF8C1300E11B4B /* STMobileLoginViewController.m in Sources */,
 				AA490F6B24FF2B6B0022CF39 /* PYPhotosNavigationController.m in Sources */,
 				AA4D496524FF35DF00767B3F /* CCBaseTableViewController.m in Sources */,
 				AA490FB124FF2B6C0022CF39 /* TYPageControl.m in Sources */,
@@ -3217,6 +3296,7 @@
 				AA4D496024FF35DF00767B3F /* STBaseModel.m in Sources */,
 				AA490F9224FF2B6C0022CF39 /* GHDropMenuFilterTimeChoseItem.m in Sources */,
 				AA4D496124FF35DF00767B3F /* CCBaseViewController.m in Sources */,
+				AA6ADD8E24FF790600E11B4B /* STLoginViewController.m in Sources */,
 				AA6ADD2424FF505900E11B4B /* MHClassTableViewController.m in Sources */,
 				AA490C0324FF28DC0022CF39 /* MHMYSalesClass.m in Sources */,
 				AA6ADCCB24FF502500E11B4B /* MyExamHeaderView.m in Sources */,
@@ -3257,6 +3337,7 @@
 				AA6ADC1224FF427F00E11B4B /* CCCommendityNoQuanCollectionViewCell.m in Sources */,
 				AA490FB524FF2B6C0022CF39 /* SDCycleScrollView.m in Sources */,
 				AA490F8624FF2B6C0022CF39 /* TZLocationManager.m in Sources */,
+				AA6ADDA724FF7DED00E11B4B /* STLoginInputView.m in Sources */,
 				AA490F8424FF2B6C0022CF39 /* TZPhotoPreviewCell.m in Sources */,
 				AA490F3C24FF2B6B0022CF39 /* JXCategoryIndicatorLineView.m in Sources */,
 				AA490F4224FF2B6B0022CF39 /* JXCategoryIndicatorDotLineView.m in Sources */,
@@ -3294,12 +3375,15 @@
 				AA490A3B24FF28DA0022CF39 /* DYWKWebVC.m in Sources */,
 				AA490F4124FF2B6B0022CF39 /* JXCategoryIndicatorComponentView.m in Sources */,
 				AA6ADCC924FF502500E11B4B /* TTFirstCatedoryModel.m in Sources */,
+				AA6ADD8D24FF790600E11B4B /* STRegisterViewController.m in Sources */,
 				AA490F6D24FF2B6B0022CF39 /* PYPhoto.m in Sources */,
 				AA6ADCCA24FF502500E11B4B /* TTSendSucViewController.m in Sources */,
 				AA6ADCC724FF502500E11B4B /* TTQuestionModel.m in Sources */,
+				AA6ADDA324FF7DED00E11B4B /* STFoundPassWordResuldView.m in Sources */,
 				AA490A1924FF28D90022CF39 /* UIView+Border.m in Sources */,
 				AA490FD024FF2B6C0022CF39 /* LCActionSheetViewController.m in Sources */,
 				AA490A1A24FF28D90022CF39 /* UIView+ViewController.m in Sources */,
+				AA6ADDA524FF7DED00E11B4B /* STLoginMobileInputView.m in Sources */,
 				AA490F7624FF2B6B0022CF39 /* ZHFilterMenuView.m in Sources */,
 				AA490F7824FF2B6B0022CF39 /* ZHFilterModel.m in Sources */,
 				AA490FCF24FF2B6C0022CF39 /* UIDevice+LCActionSheet.m in Sources */,
